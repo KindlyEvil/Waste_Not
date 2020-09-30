@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDD835"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Hostel/Hotel User"
+        android:textColor="#5E35B1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:id="@+id/loginscrn"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:padding="10dp"
+        android:text="Login"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:ems="12"
+        android:hint="email"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <EditText
+        android:id="@+id/txtPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="12"
+        android:layout_marginTop="2dp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/lnkRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="New to Waste_Not? Register here"
+        android:textColor="#3F51B5"
+        android:textSize="20dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="10dp"
+        android:src="@drawable/log_1"/>
+
+</LinearLayout>
